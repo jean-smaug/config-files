@@ -1,0 +1,17 @@
+[core]
+	editor = vim
+[alias]
+	co = checkout
+	cob = checkout -b
+	cm = commit -m
+	cam = commit --amend
+	romi = rebase origin/master -i
+	st = status
+	reha = reset --hard
+	aa = add .
+	ap = add -p
+	puo = push -u origin
+
+[user]
+	email = maximeblanc.dev@gmail.com
+	name = maxime blanc
