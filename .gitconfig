@@ -11,6 +11,7 @@
 	aa = add .
 	ap = add -p
 	puo = push -u origin
+	pouf = push -f
 
 [user]
 	email = maximeblanc.dev@gmail.com
