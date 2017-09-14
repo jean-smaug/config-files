@@ -1,7 +1,7 @@
 [core]
 	editor = vim
 [alias]
-	config = config --global --edit
+	confedit = config --global --edit
 	co = checkout
 	cob = checkout -b
 	cm = commit -m
