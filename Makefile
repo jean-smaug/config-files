@@ -11,4 +11,4 @@ restart:
 		docker-compose build --pull --no-cache && \
 		docker-compose \
 			-f docker-compose.yml \
-		up -d --remove-orphans%
+		up -d --remove-orphans
