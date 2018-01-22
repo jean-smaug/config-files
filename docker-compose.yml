@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: 
+    volumes:
+      - .:/app
+    ports:
+      - "4000:4000"
+    links:
+      - db
+
+  db:
+    
