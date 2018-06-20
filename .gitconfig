@@ -3,11 +3,13 @@
 [alias]
 	confedit = config --global --edit
 	co = checkout
+	cofi = commit --fixup
 	cob = checkout -b
 	cm = commit -m
 	cam = commit -am
 	amend = commit --amend
 	romi = rebase origin/master -i
+	roma = rebase origin/master -i --autosquash
 	remaster = pull origin master && reha origin/master
 	st = status
 	reha = reset --hard
