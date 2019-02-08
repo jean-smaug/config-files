@@ -16,7 +16,8 @@
 	aa = add .
 	ap = add -p
 	pou = push -u origin
-	pouf = push -f
+	pouf = push --force-with-lease
+	ss = status -s
 
 [user]
 	email = maximeblanc.dev@gmail.com
