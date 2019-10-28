@@ -17,6 +17,7 @@
 	roma = rebase origin/master -i --autosquash
 	reha = reset --hard
 	pou = push -u origin
+	pouh = pou HEAD
 	pouf = push --force-with-lease
 	remaster = !git fetch && git reha origin/master
 
