@@ -20,6 +20,7 @@
 	pouh = pou HEAD
 	pouf = push --force-with-lease
 	remaster = !git fetch && git reha origin/master
+	lol = log --oneline --decorate --graph --all
 
 [user]
 	email = maximeblanc.dev@gmail.com
