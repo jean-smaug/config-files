@@ -1,24 +1,25 @@
 [core]
 	editor = vim
+
 [alias]
 	confedit = config --global --edit
+	st = status
+	ss = status -s
 	co = checkout
-	cofi = commit --fixup
 	cob = checkout -b
+	aa = add .
+	ap = add -p
+	cofi = commit --fixup
 	cm = commit -m
 	cam = commit -am
 	amend = commit --amend
 	romi = rebase origin/master -i
 	roma = rebase origin/master -i --autosquash
-	remaster = !git fetch && git reha origin/master
-	st = status
 	reha = reset --hard
-	aa = add .
-	ap = add -p
 	pou = push -u origin
 	pouf = push --force-with-lease
-	ss = status -s
+	remaster = !git fetch && git reha origin/master
 
 [user]
 	email = maximeblanc.dev@gmail.com
-	name = maxime blanc
+	name = jean-smaug
